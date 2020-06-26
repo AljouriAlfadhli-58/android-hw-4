@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F6"
+    android:foregroundTint="#673AB7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="490dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Grade calculator:"
+        android:textColor="#0B0909"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="120dp"
+        android:background="#117DA2A6"
+        android:ems="10"
+        android:hint=" %15"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="200dp"
+        android:background="#117DA2A6"
+        android:ems="10"
+        android:hint="%25"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="270dp"
+        android:background="#117DA2A6"
+        android:ems="10"
+        android:hint="%30"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="340dp"
+        android:background="#117DA2A6"
+        android:ems="10"
+        android:hint="%30"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="420dp"
+        android:background="#3D4575"
+        android:fontFamily="sans-serif-black"
+        android:text="calculate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="500dp"
+        android:background="#3D4575"
+        android:fontFamily="sans-serif-black"
+        android:text="reset" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="1000dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginBottom="180dp"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="false"
+        android:scrollbarSize="5dp"
+        android:text="result"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:background="#EED6F3"
+        android:text="Quizes :"
+        android:textColor="#1B1515"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="110sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:background="#EED6F3"
+        android:text="HomeWork"
+        android:textColor="#231E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="110sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="272sp"
+        android:background="#EED6F3"
+        android:text="mid term"
+        android:textColor="#130F0F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="110sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="345dp"
+        android:background="#EED6F3"
+        android:text="Final"
+        android:textColor="#191313"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
